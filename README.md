@@ -55,7 +55,7 @@ Onde passei a cor branca no formato BGR, que é o formato que a documentação d
 
 Como pode-se observar, existem inúmeros ruídos na imagem, o que difícultou fazer o tracking dos pontos pedidos.
 
-####1.2
+#### 1.2
 
 Na minha segunda tentativa, optei pela estratégia de localizar pela movimentação do objeto e da mesma forma, obtive o mesmo resultado.
 
@@ -63,7 +63,7 @@ Na minha segunda tentativa, optei pela estratégia de localizar pela movimentaç
 
 <img src="images/IMG1_1.png" alt="Result_02_1">
 
-####1.3 
+#### 1.3 
 
 Após as duas tentativas sem sucesso, optei por o MultiTracking, passando os pontos de maneira manual.
 
@@ -71,7 +71,7 @@ Após as duas tentativas sem sucesso, optei por o MultiTracking, passando os pon
 
 O algoritmo escolhido foi o CRST, que tem uma maior precisão dentre os que a biblioteca disponibiliza. Onde pude ter um resultado satisfatório, obtendo os resultados de x e y de cada ponto selecionado. 
 
-###Formato de vÍdeo disponibilizado
+### Formato de vÍdeo disponibilizado
 
 Pelo fato do vídeo estar em alta resolução e com o tamanho de aproximadamente 1GB, o que ocasionava lentidão nos diversos testes que eu realizava, foi-se então necessário a conversão do mesmo para conseguir trabalhar de uma maneira mais eficiente, o formato escolhido foi o .mp4.
 ## Referências
